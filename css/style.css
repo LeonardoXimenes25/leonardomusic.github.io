@@ -1,0 +1,73 @@
+:root {
+  --primary-color: #f86a27;
+  --dark-color: #0f0f0f;
+  --gray-color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none !important;
+  border: none !important;
+  list-style: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* navbar */
+.navbar-brand {
+  font-size: 2rem !important;
+  color: var(--dark-color) !important;
+}
+
+.span-logo {
+  color: var(--primary-color);
+}
+
+/* for active navigation hover */
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .navbar.active {
+  color: var(--primary-color) !important;
+}
+
+/* navbar icons */
+.navbar-extra a {
+  color: var(--dark-color) !important;
+  width: 1rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.navbar-extra a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* Header-Hero section */
+.header-skills a {
+  color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.header-skills a:hover {
+  color: var(--primary-color);
+}
+
+.header-skills i {
+  transition: 0.3s linear;
+}
+
+.header-skills i:hover {
+  transform: rotate(-45deg);
+}
+
+/* section portofolio */
+.portofolio {
+  min-height: 100vh;
+  padding: 6rem;
+}
